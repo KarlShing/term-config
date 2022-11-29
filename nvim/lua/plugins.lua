@@ -20,7 +20,7 @@ return require('packer').startup(function(use)
 
   -- tools
   use {
-	"windwp/nvim-autopairs",
+    "windwp/nvim-autopairs",
     config = function() require("nvim-autopairs").setup {} end
   }
 
