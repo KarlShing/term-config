@@ -5,7 +5,7 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   
   -- LSP configs
-  -- use 'neovim/nvim-lspconfig'
+  use 'neovim/nvim-lspconfig'
   use {
     'neoclide/coc.nvim',
 	branch = 'release'
